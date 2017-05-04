@@ -17,7 +17,7 @@ This steps assume you wish to run the app with Apache + wgsi. If you just want t
 * Enable the new site:
   * sudo a2ensite 005-flask-test
 *  Get a copy of the source code by using _git clone_ or similar into the folder you choose. In this example, _/var/www/_ was used. Edit the flaskr.wsgi and site config file accordingly.
-* In the new _<app root>/flaskr/_ folder create a virtual environment:
+* In the new _`<app root>`/flaskr/_ folder create a virtual environment:
   * virtualenv venv
 * Activate the virtual environment and install the app:
   * source /venv/bin/activate
@@ -25,4 +25,4 @@ This steps assume you wish to run the app with Apache + wgsi. If you just want t
 * Change file permissions to ensure webserver user can write to the flaskr.db database file (file and containing folder!)
 * Restart web server!
   * sudo service apache2 restart
-* In your web browser head to http://<your address>:1096
+* In your web browser head to http://`<your address>`:1096
