@@ -6,7 +6,7 @@ Some design considerations (as this is a tutorial, you may have particular inter
 * A separate Apache site configuration file is used for the Flaskr app setup. 
 * The home router blocks outgoing connections on port 80, so a different port was used. 1096 in this case, but any other non-reserved number should do. Don't forget to open such port in the router firewall and forward it to the server in use (Raspberry Pi in this case).
 
-++ Installation
+## Installation
 This steps assume you wish to run the app with Apache + wgsi. If you just want to test it, just download the code and follow the usual _flask run_ steps.
 * Install Apache in your server (doh!)
 * Install mod_wsgi module. In Debian-based distributions:
